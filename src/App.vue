@@ -2,7 +2,6 @@
   <Header />
   <main>
     <HeroBanner />
-
     <!-- About -->
     <section id="about" class="about-container container-fluid">
       <div class="row about container">
@@ -12,12 +11,7 @@
         <div class="col-lg-6">
           <h2>About</h2>
           <p>
-            I am a passionate and highly skilled professional dedicated to
-            creating impactful and innovative solutions with a proven track
-            record in Wed Development. I thrive on pushing the boundaries of
-            what is possible and delivering outstanding results here you will
-            discover the essence of my journey expertise and commitment
-            to&nbsp;excellence.
+           I'm Ja, a frontend developer with 5 years of expertise in HTML, CSS, and JavaScript. I specialize in crafting seamless web experiences, translating intricate designs into user-friendly interfaces. Collaborative by nature, I thrive in multidisciplinary teams, fostering synergy for outstanding results. Beyond coding, I'm passionate about staying abreast of industry trends and refining my skills. Let's collaborate and bring innovative digital solutions to life!
           </p>
         </div>
       </div>
@@ -53,19 +47,38 @@
         </div>
       </div>
     </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-container container">
+      <div class="row contact">
+        <div class="col-lg-6">
+          <h2>Contact</h2>
+          <p>
+            Thank you for visiting my portfolio! I'm thrilled to connect
+            <br class="d-none d-lg-block" />with you. Feel free to reach out using the form. I appreciate
+            <br class="d-none d-lg-block" />
+            your interest and look forward to hearing from you.
+          </p>
+        </div>
+        <div class="col-lg-6 talk">
+          <img src="./assets/img/message-sent.svg" alt="Message Sent" />
+        </div>
+      </div>
+    </section>
   </main>
+  <Footer />
 </template>
 
 <script>
 import Header from "./components/Header.vue"
 import HeroBanner from "./components/HeroBanner.vue"
 import Carousel from "./components/Carousel.vue"
+import Footer from "./components/Footer.vue"
 
 export default {
   name: "App",
-  components: { Header, HeroBanner, Carousel },
+  components: { Header, HeroBanner, Carousel, Footer },
   mounted() {
-
     // Set active link when scrolling to sections
     const sections = document.querySelectorAll("section");
     const navLi = document.querySelectorAll(".navbar .navbar-nav li");
@@ -190,6 +203,11 @@ export default {
 .contact-container {
   padding-top: 100px;
   padding-bottom: 50px;
+  
+  .contact {
+    display: flex;
+    align-items: center;
+  }
 
   h2 {
     font-size: 50px;
@@ -208,6 +226,15 @@ export default {
     @include breakpoint("desktop") {
       text-align: left;
     }
+  }
+
+  .talk img {
+    width: 100%;
+    height: 200px;
+    @include breakpoint('desktop') {
+      height: 300px;
+    }
+    
   }
 }
 </style>
