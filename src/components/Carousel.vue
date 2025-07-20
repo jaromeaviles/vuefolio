@@ -1,5 +1,5 @@
 <template>
-  <div class="splide" ref="splide" aria-label="projects">
+  <div class="splide" ref="splide" aria-label="projects" data-aos="fade-up" data-aos-delay="500">
     <div class="splide__track">
       <ul class="splide__list">
         <li class="splide__slide">

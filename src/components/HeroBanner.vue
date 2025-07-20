@@ -2,9 +2,9 @@
    <div class="wrapper">
         <section id="home" class="hero container">
           <div class="row">
-            <div class="col-lg-6 hero-text">
+            <div class="col-lg-6 hero-text" data-aos="fade" data-aos-delay="300">
               <h1>Jarome Aviles</h1>
-              <h3>Frontend Developer</h3>
+              <h2>Web Developer</h2>
               <div class="hero-btns">
                 <a href="../assets/downloadable_file/CV-Aviles, Jarome Carlo.doc" download>Download CV</a>
               </div>
@@ -69,16 +69,16 @@ footer {
     }
 
     @media only screen and (min-width: 1920px) {
-      font-size: 70px;
+      font-size: 90px;
     }
   }
-  h3 {
+  h2 {
     font-size: 35px;
     text-align: center;
     text-transform: inherit;
     @include breakpoint('desktop') {
       text-align: left;
-      font-size: 35px;
+      font-size: 45px;
     }
   }
 }
@@ -93,7 +93,7 @@ footer {
     padding-left: 10px;
   }
 
-  h3 {
+  h2 {
     color: $pewter;
     margin-bottom: 20px;
   }
@@ -149,6 +149,5 @@ footer {
       }
     }
 }
-
 
 </style>

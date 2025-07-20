@@ -3,7 +3,7 @@
       <section class="container">
         <div class="row">
           <div class="col-lg-6">
-            <p>&copy; Jarome Aviles 2024</p>
+            <p>&copy; Jarome Aviles 2025</p>
           </div>
           <div class="col-lg-6">
             <!-- Linkedin -->

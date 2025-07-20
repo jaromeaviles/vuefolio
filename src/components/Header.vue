@@ -56,7 +56,6 @@
   .nav-item {
     color: $pewter;
     transition-duration: 1s;
-    font-size: 14px;
     font-weight: bold;
     margin-right: 10px;
     &.active {
