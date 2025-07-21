@@ -5,12 +5,12 @@
             <div class="col-lg-6 hero-text" data-aos="fade" data-aos-delay="300">
               <h1>Jarome Aviles</h1>
               <h2>Web Developer</h2>
-              <div class="hero-btns">
-                <a href="../assets/downloadable_file/CV-Aviles, Jarome Carlo.doc" download>Download CV</a>
+              <div class="hero-btn">
+                <a href="files/jaromeaviles-cv.pdf" download>Download CV</a>
               </div>
             </div>
             <div class="col-lg-6 hero-image-container">
-              <img src="../assets/img/creator.jpg" class="rounded-circle" alt="banner" />
+              <img src="images/creator.jpg" class="rounded-circle" alt="banner" />
             </div>
           </div>
         </section>
@@ -23,11 +23,11 @@
 .wrapper,
 .project-container,
 footer {
-  background-image: url("../assets/img/textures.png");
+  background-image: url("../../public/images/textures.png");
 }
 
 .square-wrapper {
-  background-image: url("../assets/img/square.png");
+  background-image: url("../../public/images/square.png");
 }
 
 .hero {
@@ -103,7 +103,7 @@ footer {
   justify-content: center;
   padding-bottom: 0;
 }
-.hero-btns {
+.hero-btn {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;

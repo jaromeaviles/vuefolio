@@ -5,7 +5,7 @@
         <li class="splide__slide">
           <div class="project-description">
             <a href="https://kdsfun.000webhostapp.com/" target="_blank">
-              <img src="../assets/img/for-upload/kidoos.png" alt="kidoos" />
+              <img src="images/for-upload/kidoos.png" alt="kidoos" />
             </a>
             <div>
               <h3>Kidoos</h3>
@@ -33,7 +33,7 @@
               target="_blank"
             >
               <img
-                src="../assets/img/for-upload/portfolio.png"
+                src="images/for-upload/portfolio.png"
                 alt="portfolio project"
               />
             </a>
@@ -67,7 +67,7 @@
               href="https://jaromeaviles.github.io/todolist-with-vue/"
               target="_blank"
             >
-              <img src="../assets/img/for-upload/todos.png" alt="todos" />
+              <img src="images/for-upload/todos.png" alt="todos" />
             </a>
             <div>
               <h3>Todo with Vue</h3>

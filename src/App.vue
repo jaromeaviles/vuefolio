@@ -6,7 +6,7 @@
     <section id="about" class="about-container container-fluid">
       <div class="row about container">
         <div class="col-lg-6 about-image-container">
-          <img src="./assets/img/coding.svg" alt="coding" class="coding" />
+          <img src="images/coding.svg" alt="coding" class="coding" />
         </div>
         <div class="col-lg-6" data-aos="fade-left" data-aos-delay="400">
           <h2>About Me</h2>
@@ -66,7 +66,7 @@
           </p>
         </div>
         <div class="col-lg-6 talk">
-          <img src="./assets/img/message-sent.svg" alt="Message Sent" />
+          <img src="images/message-sent.svg" alt="Message Sent" />
         </div>
       </div>
     </section>
