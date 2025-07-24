@@ -1,7 +1,7 @@
 <template>
    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container p-0">
-        <a class="navbar-brand" href="#"><img src="../assets/img/ja-logo-edited-no-bg.png" /></a>
+        <a class="navbar-brand" href="#"><img src="images/ja-logo-edited-no-bg.png" /></a>
 
         <label class="hamburger navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"      aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
             <input type="checkbox">
@@ -56,7 +56,6 @@
   .nav-item {
     color: $pewter;
     transition-duration: 1s;
-    font-size: 14px;
     font-weight: bold;
     margin-right: 10px;
     &.active {

@@ -1,30 +1,96 @@
 <template>
-  <div class="splide" ref="splide" aria-label="projects">
+  <div class="splide" ref="splide" aria-label="projects" data-aos="fade-up" data-aos-delay="500">
     <div class="splide__track">
       <ul class="splide__list">
+
+        <!-- Dayvigo -->
+
         <li class="splide__slide">
           <div class="project-description">
-            <a href="https://kdsfun.000webhostapp.com/" target="_blank">
-              <img src="../assets/img/for-upload/kidoos.png" alt="kidoos" />
+            <a href="https://www.dayvigo.com/" target="_blank">
+              <img src="images/projects/dayvigo.png" alt="dayvigo" />
             </a>
             <div>
-              <h3>Kidoos</h3>
+              <h3>Dayvigo</h3>
               <p>
-                Kidoos is a visionary project aimed at revolutionizing the
-                management of student information, communication, and engagement
-                within educational institutions.
+                I was part of the development team for the Dayvigo website, 
+                a branded pharmaceutical site focused on insomnia treatment. My work involved front-end development using HTML, CSS, and JavaScript, 
+                along with content integration in Sitecore CMS—all while adhering to strict accessibility and regulatory standards.
               </p>
 
-              <a href="https://kdsfun.000webhostapp.com/" target="_blank"
-                >View</a
-              >
-              |
-              <a href="https://github.com/jaromeaviles/kidoos" target="_blank"
-                >Github</a
-              >
+              <a href="https://www.dayvigo.com/" target="_blank"
+                >View</a>
             </div>
           </div>
         </li>
+
+        <!-- Dayvigo HK -->
+        
+         <li class="splide__slide">
+          <div class="project-description">
+            <a href="https://www.dayvigo.hk/" target="_blank">
+              <img src="images/projects/dayvigo-hk.png" alt="dayvigo hk" />
+            </a>
+            <div>
+              <h3>Dayvigo HK</h3>
+              <p>
+                I also contributed to the development of the Dayvigo Hong Kong website, 
+                adapting global content and structure to meet local market needs. 
+                My role focused on front-end implementation using HTML, CSS, and JavaScript, and integrating content through 
+                Sitecore CMS while ensuring alignment with brand guidelines, accessibility standards, and regional compliance requirements.
+              </p>
+
+              <a href="https://www.dayvigo.hk/" target="_blank"
+                >View</a>
+            </div>
+          </div>
+        </li>
+
+        <!-- Fycompa -->
+
+        <li class="splide__slide">
+          <div class="project-description">
+            <a href="https://www.fycompa.com/hcp/" target="_blank">
+              <img src="images/projects/fycompa.png" alt="fycompa" />
+            </a>
+            <div>
+              <h3>Fycompa</h3>
+              <p>
+                I worked on the Fycompa HCP (Healthcare Professional) website, a medical resource platform for healthcare providers. 
+                My responsibilities included implementing responsive front-end components using HTML, CSS, and JavaScript, 
+                and managing content updates through Sitecore CMS. 
+                I ensured that all updates followed accessibility guidelines and regulatory standards specific to pharmaceutical industry requirements.
+              </p>
+
+              <a href="https://www.fycompa.com/hcp/" target="_blank"
+                >View</a>
+            </div>
+          </div>
+        </li>
+
+        <!-- Pizzarox -->
+
+        <li class="splide__slide">
+          <div class="project-description">
+            <a href="https://pizzarox.com/" target="_blank">
+              <img src="images/projects/pizzarox.png" alt="pizzarox" />
+            </a>
+            <div>
+              <h3>Pizzarox</h3>
+              <p>
+                I built the Pizza Rox website using WordPress with the Beaver Builder theme, 
+                customizing layouts and components to create a responsive, user-friendly experience. The site showcases the brand’s menu, 
+                locations, and promotions, with a focus on fast performance, mobile optimization, 
+                and ease of content management for the client.
+              </p>
+
+              <a href="https://pizzarox.com/" target="_blank"
+                >View</a>
+            </div>
+          </div>
+        </li>
+
+        <!-- Specter -->
 
         <li class="splide__slide">
           <div class="project-description">
@@ -33,8 +99,8 @@
               target="_blank"
             >
               <img
-                src="../assets/img/for-upload/portfolio.png"
-                alt="portfolio project"
+                src="images/projects/specter.png"
+                alt="specter"
               />
             </a>
             <div>
@@ -61,13 +127,15 @@
           </div>
         </li>
 
+        <!-- Todo with Vue -->
+
         <li class="splide__slide">
           <div class="project-description">
             <a
               href="https://jaromeaviles.github.io/todolist-with-vue/"
               target="_blank"
             >
-              <img src="../assets/img/for-upload/todos.png" alt="todos" />
+              <img src="images/projects/todos-with-vue.png" alt="todos" />
             </a>
             <div>
               <h3>Todo with Vue</h3>
@@ -81,8 +149,7 @@
               <a
                 href="https://jaromeaviles.github.io/todolist-with-vue/"
                 target="_blank"
-                >View</a
-              >
+                >View</a>
               |
               <a
                 href="https://github.com/jaromeaviles/todolist-with-vue"
@@ -115,6 +182,13 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/global.scss";
 
+.project {
+  .splide__arrow {
+    background-color: white;
+    opacity: 1;
+  }
+}
+
 .project-description {
   display: flex;
   justify-content: center;
@@ -130,6 +204,7 @@ export default {
   img {
     width: 100%;
     height: auto;
+    border-radius: 10px;
     @include breakpoint("desktop") {
       width: 500px;
     }

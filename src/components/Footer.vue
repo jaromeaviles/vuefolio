@@ -3,19 +3,19 @@
       <section class="container">
         <div class="row">
           <div class="col-lg-6">
-            <p>&copy; Jarome Aviles 2024</p>
+            <p>&copy; Jarome Aviles 2025</p>
           </div>
           <div class="col-lg-6">
             <!-- Linkedin -->
             <span class="icon">
               <a href="https://www.linkedin.com/in/jarome-carlo-aviles-b7a88315a/" target="_blank">
-              <img src="../assets/img/linkedin.png" alt="Linkedin" /></a>
+              <img src="images/linkedin.png" alt="Linkedin" /></a>
             </span>
 
             <!-- Github -->
             <span class="icon">
               <a href="https://github.com/jaromeaviles" target="_blank">
-               <img src="../assets/img/github.png" alt="Github" /></a>
+               <img src="images/github.png" alt="Github" /></a>
             </span>
           </div>
         </div>

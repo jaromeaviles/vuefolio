@@ -2,15 +2,15 @@
    <div class="wrapper">
         <section id="home" class="hero container">
           <div class="row">
-            <div class="col-lg-6 hero-text">
+            <div class="col-lg-6 hero-text" data-aos="fade" data-aos-delay="300">
               <h1>Jarome Aviles</h1>
-              <h3>Frontend Developer</h3>
-              <div class="hero-btns">
-                <a href="../assets/downloadable_file/CV-Aviles, Jarome Carlo.doc" download>Download CV</a>
+              <h2>Web Developer</h2>
+              <div class="hero-btn">
+                <a href="files/jaromeaviles-cv.pdf" download>Download CV</a>
               </div>
             </div>
             <div class="col-lg-6 hero-image-container">
-              <img src="../assets/img/creator.jpg" class="rounded-circle" alt="banner" />
+              <img src="images/creator.jpg" class="rounded-circle" alt="banner" />
             </div>
           </div>
         </section>
@@ -23,11 +23,11 @@
 .wrapper,
 .project-container,
 footer {
-  background-image: url("../assets/img/textures.png");
+  background-image: url("../../public/images/textures.png");
 }
 
 .square-wrapper {
-  background-image: url("../assets/img/square.png");
+  background-image: url("../../public/images/square.png");
 }
 
 .hero {
@@ -69,16 +69,16 @@ footer {
     }
 
     @media only screen and (min-width: 1920px) {
-      font-size: 70px;
+      font-size: 90px;
     }
   }
-  h3 {
+  h2 {
     font-size: 35px;
     text-align: center;
     text-transform: inherit;
     @include breakpoint('desktop') {
       text-align: left;
-      font-size: 35px;
+      font-size: 45px;
     }
   }
 }
@@ -93,7 +93,7 @@ footer {
     padding-left: 10px;
   }
 
-  h3 {
+  h2 {
     color: $pewter;
     margin-bottom: 20px;
   }
@@ -103,7 +103,7 @@ footer {
   justify-content: center;
   padding-bottom: 0;
 }
-.hero-btns {
+.hero-btn {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -149,6 +149,5 @@ footer {
       }
     }
 }
-
 
 </style>

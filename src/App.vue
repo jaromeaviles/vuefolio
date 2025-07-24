@@ -6,12 +6,17 @@
     <section id="about" class="about-container container-fluid">
       <div class="row about container">
         <div class="col-lg-6 about-image-container">
-          <img src="./assets/img/coding.svg" alt="coding" class="coding" />
+          <img src="images/coding.svg" alt="coding" class="coding" />
         </div>
-        <div class="col-lg-6">
-          <h2>About</h2>
+        <div class="col-lg-6" data-aos="fade-left" data-aos-delay="400">
+          <h2>About Me</h2>
           <p>
-           I'm Ja, a frontend developer with 5 years of expertise in HTML, CSS, and JavaScript. I specialize in crafting seamless web experiences, translating intricate designs into user-friendly interfaces. Collaborative by nature, I thrive in multidisciplinary teams, fostering synergy for outstanding results. Beyond coding, I'm passionate about staying abreast of industry trends and refining my skills. Let's collaborate and bring innovative digital solutions to life!
+          I’m a front-end web developer with 6 years of experience building responsive, 
+          user-friendly websites and web apps. I work with HTML, CSS, JavaScript, Sass, Vue.js, Bootstrap, WordPress, 
+          and version control using Git.
+          </p>
+          <p>I enjoy turning designs into clean, maintainable code and creating smooth user experiences. 
+            Whether it's a custom site or a dynamic web app, I’m always focused on usability, performance, and collaboration.
           </p>
         </div>
       </div>
@@ -40,7 +45,7 @@
 
       <div class="container project">
         <div class="row">
-          <div class="col-12">
+          <div class="col-12" data-aos="fade" data-aos-delay="400">
             <h2>Projects</h2>
             <Carousel />
           </div>
@@ -51,7 +56,7 @@
     <!-- Contact -->
     <section id="contact" class="contact-container container">
       <div class="row contact">
-        <div class="col-lg-6">
+        <div class="col-lg-6" data-aos="fade-right" data-aos-delay="400">
           <h2>Contact</h2>
           <p>
             Thank you for visiting my portfolio! I'm thrilled to connect
@@ -61,7 +66,7 @@
           </p>
         </div>
         <div class="col-lg-6 talk">
-          <img src="./assets/img/message-sent.svg" alt="Message Sent" />
+          <img src="images/message-sent.svg" alt="Message Sent" />
         </div>
       </div>
     </section>
@@ -130,7 +135,6 @@ export default {
     h2 {
       color: $black;
       font-size: 50px;
-      line-height: 50px;
       margin-bottom: 16px;
       font-weight: bold;
       @include breakpoint("mobile") {
