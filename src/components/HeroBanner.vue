@@ -10,7 +10,7 @@
               </div>
             </div>
             <div class="col-lg-6 hero-image-container">
-              <img src="images/creator.jpg" class="rounded-circle" alt="banner" />
+              <img src="../../images/profile.jpg" class="rounded-circle" alt="banner" />
             </div>
           </div>
         </section>
@@ -49,13 +49,12 @@ footer {
   }
   img {
     display: block;
-    border: 1px solid white;
     width: 100%;
     height: auto;
 
     @include breakpoint('desktop') {
-      width: 400px;
-      height: 400px;
+      width: 450px;
+      height: auto;
     }
   }
   h1 {

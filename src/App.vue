@@ -114,10 +114,8 @@ export default {
 @import "./assets/global.scss";
 
 // About
-.about-container {
-  .about {
-    padding-top: 90px;
-    padding-bottom: 60px;
+.about-container .about {
+    padding: 90px 15px 60px 15px;
     margin: 0 auto;
     text-align: center;
     @include breakpoint("desktop") {
@@ -164,7 +162,6 @@ export default {
       }
     }
   }
-}
 
 .project-container {
   padding-top: 0;
@@ -205,8 +202,10 @@ export default {
 
 // Contact
 .contact-container {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding: 100px 15px 50px 15px;
+   @include breakpoint("desktop") {
+    padding: 100px 0 50px 0;
+   }
   
   .contact {
     display: flex;
